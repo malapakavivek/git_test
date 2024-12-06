@@ -1,0 +1,30 @@
+git workflow
+
+--> git clone 
+(create new file in the cloned repository) here "hello_world.txt" 
+--> git add hello_world.txt
+(this command adds the file to the staging area in git)
+--> git commit -m "description of what you did"
+--> git log
+--> git push OR git push origin main
+
+
+add 
+commit 
+push
+log
+
+can check for status any time during these commands
+
+- Commands related to a remote repository:
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+git push or git push origin main (Both accomplish the same goal in this context)
+
+- Commands related to the workflow:
+git add .
+git commit -m "A message describing what you have done to make this snapshot different"
+
+- Commands related to checking status or log history
+git status
+git log
+
